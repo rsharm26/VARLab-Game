@@ -497,7 +497,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 5
 --- !u!114 &220433629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -511,7 +511,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  direction: -1
 --- !u!1 &321202844
 GameObject:
   m_ObjectHideFlags: 0
@@ -636,7 +635,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 5
 --- !u!114 &321202849
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -650,7 +649,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  direction: 1
 --- !u!1001 &437594396
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -865,7 +863,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 5
 --- !u!114 &519295816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -879,7 +877,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  direction: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -930,8 +927,8 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
-  m_Antialiasing: 0
+  m_RenderPostProcessing: 1
+  m_Antialiasing: 2
   m_AntialiasingQuality: 2
   m_StopNaN: 0
   m_Dithering: 0
@@ -1157,7 +1154,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 5
 --- !u!114 &550811254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1171,7 +1168,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  direction: -1
 --- !u!1 &588660129
 GameObject:
   m_ObjectHideFlags: 0
@@ -2217,7 +2213,7 @@ GameObject:
   - component: {fileID: 699173106}
   - component: {fileID: 699173105}
   m_Layer: 5
-  m_Name: Level Text
+  m_Name: LevelText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2510,7 +2506,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 5
 --- !u!114 &726659604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2524,7 +2520,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  direction: -1
 --- !u!1 &748364651
 GameObject:
   m_ObjectHideFlags: 0
@@ -4424,7 +4419,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 5
 --- !u!114 &989307751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4438,7 +4433,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  direction: 1
 --- !u!1001 &998910313
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4653,7 +4647,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 5
 --- !u!114 &1087905173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4667,7 +4661,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  direction: -1
 --- !u!1 &1164099837
 GameObject:
   m_ObjectHideFlags: 0
@@ -4792,7 +4785,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 5
 --- !u!114 &1164099842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4806,7 +4799,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  direction: -1
 --- !u!1 &1210860557
 GameObject:
   m_ObjectHideFlags: 0
@@ -4999,7 +4991,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 5
 --- !u!114 &1243034134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5013,7 +5005,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  direction: 1
 --- !u!1 &1249412376
 GameObject:
   m_ObjectHideFlags: 0
@@ -5138,7 +5129,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 5
 --- !u!114 &1249412381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5152,7 +5143,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  direction: 1
 --- !u!1 &1255424626
 GameObject:
   m_ObjectHideFlags: 0
@@ -5166,7 +5156,7 @@ GameObject:
   - component: {fileID: 1255424628}
   - component: {fileID: 1255424630}
   m_Layer: 5
-  m_Name: Deaths Text
+  m_Name: DeathsText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5427,7 +5417,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 5
 --- !u!114 &1263888186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5441,7 +5431,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  direction: 1
 --- !u!1 &1270668503
 GameObject:
   m_ObjectHideFlags: 0
@@ -5566,7 +5555,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 5
 --- !u!114 &1270668508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5580,7 +5569,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  direction: -1
 --- !u!1001 &1333610481
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5790,7 +5778,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 5
 --- !u!114 &1539518722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5804,7 +5792,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  direction: -1
 --- !u!1 &1579250294
 GameObject:
   m_ObjectHideFlags: 0
@@ -5929,7 +5916,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 5
 --- !u!114 &1579250299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5943,7 +5930,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  direction: -1
 --- !u!1 &1586876585
 GameObject:
   m_ObjectHideFlags: 0
@@ -6068,7 +6054,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 5
 --- !u!114 &1586876590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6082,7 +6068,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  direction: -1
 --- !u!1 &1623839455
 GameObject:
   m_ObjectHideFlags: 0
@@ -6256,7 +6241,7 @@ GameObject:
   - component: {fileID: 1768789140}
   - component: {fileID: 1768789139}
   m_Layer: 5
-  m_Name: Text Canvas
+  m_Name: TextCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6471,7 +6456,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 5
 --- !u!114 &1871762573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6485,7 +6470,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  direction: 1
 --- !u!1 &1949180475
 GameObject:
   m_ObjectHideFlags: 0
@@ -6610,7 +6594,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 5
 --- !u!114 &1949180480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6624,7 +6608,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  direction: 1
 --- !u!1 &1985549866
 GameObject:
   m_ObjectHideFlags: 0
@@ -6749,7 +6732,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 5
 --- !u!114 &1985549871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6763,7 +6746,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  direction: -1
 --- !u!1 &2014906485
 GameObject:
   m_ObjectHideFlags: 0
@@ -7037,7 +7019,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 5
 --- !u!114 &2058928025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7051,7 +7033,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  direction: -1
 --- !u!1 &2083168187
 GameObject:
   m_ObjectHideFlags: 0
